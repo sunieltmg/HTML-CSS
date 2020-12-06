@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #333333;
+    color:#ffffff;
+}
+
+ul li{
+    position: relative;
+    list-style-type: none;
+    display:inline-block;
+    margin-left:50px;
+    background-color: black;
+    padding-left:40px;
+    padding-top:30px;
+    min-width:200px;
+    min-height: 100px;
+
+}
+
+ul li a{
+    position:absolute;
+    box-sizing: border-box;
+    text-decoration: none;
+    color:white;
+    font-size: 30px;
+    width:200px;
+    overflow:hidden;
+    
+
+}
+
+ul li ul{
+    display:none;
+}
+
+ul li:hover ul{
+    display:block;
+    box-sizing: border-box;
+   
+
+}
