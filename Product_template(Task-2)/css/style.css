@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    line-height: 1.6em;
+}
+
+.main{
+    float:left;
+    margin-left:50px;
+}
+
+
+.first{
+    width:320px;
+    height:470px;
+    margin:10px 0px 0px 10px;
+    padding:10px;
+    box-shadow: 2px 2px 5px 5px rgba(0,0,0,0.6);
+    position:relative;
+}
+
+.product-img img{
+    width:290px;
+    height:300px;
+}
+.logo{
+    width:80px;
+    height:30px;
+}
+
+.hover-part{
+    position:absolute;
+    top:300px;
+    left:75px;
+}
+
+
+button{
+    background-color: #000000;
+    color:#ffffff;
+    padding:5px;
+}
+
+
+.hover-part{
+    display:none;
+}
+.main:hover .hover-part{
+    display:block;
+}
+
