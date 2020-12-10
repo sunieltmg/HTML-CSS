@@ -1,0 +1,46 @@
+.photo{
+    height:250px;
+    width:300px;
+    float:left;
+}
+
+.photo img{
+    height:230px;
+    width:280px;
+    padding:10px;
+}
+
+
+.photo-hidden{
+    position: absolute;
+    top:100px;
+    left:300px;
+    width:500px;
+    height:350px;
+    display:none;
+
+
+}
+
+.photo-hidden img{
+    height:350px;
+    width:500px;
+}
+
+.gallery{
+    background-color: rgba(238, 238, 238, 0.5);
+
+
+}
+
+.gallery:hover .photo-hidden{
+    display:block;
+    background-color: rgba(255,255,255,1);
+
+
+
+}
+
+.gallery:hover{
+    cursor: pointer;
+}
