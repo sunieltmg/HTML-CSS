@@ -1,0 +1,26 @@
+body{
+    background-color: rgba(27,31,34,0.85);
+}
+
+.main{
+    width:70%;
+    height:400px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+    background-image: url('../image/nepal1.jpg');
+    background-size: 100% , 100%;
+    box-shadow: 1px 2px 10px 5px white;
+    animation:slider 12s infinite linear;
+}
+
+
+@keyframes slider{
+    0%{background-image: url('../image/nepal1.jpg');}
+    25%{background-image: url('../image/nepal2.jpg');}
+    50%{background-image: url('../image/nepal3.jpg');}
+    75%{background-image: url('../image/nepal4.jpg');}
+    100%{background-image: url('../image/nepal5.jpg');}
+}
+
