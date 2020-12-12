@@ -44,3 +44,8 @@
 .gallery:hover{
     cursor: pointer;
 }
+
+.content{
+    height:200px;
+    width:500px;
+}
