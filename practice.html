@@ -1,267 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <style>
+<html>
+<head>
+<title>
+    CSS pading
+</title>
+    
+    
+<style>
+    
+    *{
+        margin:0;
+        padding:0;
+    }
+    
+    div{
+        background-color:aqua;
+        height:100vh;
+        width:100%;
+    }
+   
+    
+    
+</style>
+</head>
+    
+    
+<body>
+    
+    <div>
+        <img src="nepal2.jpg" alt="We are organizing a trek to Annapurna Base camp. Here is our trek details."/>
+    </div>
+    
+</body>
 
-            /* *{
-                margin:0;
-                padding:0;
-                box-sizing: border-box;
-            } */
-            /* div{
-                width:700px;
-                background-color: #00ff00;
-                margin:auto;
-                box-sizing: border-box;
-
-            }
-            
-            p{
-                margin-top:80px;
-                text-shadow: 2px 2px 5px red;
-
-            } */
-
-           
-
-            /* a{
-                display:inline-block;
-                text-decoration:none;
-                background-color:#ff0000;
-                color:#ffffff;
-                padding:10px 95px;
-                margin-left:100px;
-                margin-top:50px;
-            }
-
-            a:hover{
-                background-color: #ffffff;
-                color:#000000;
-                border:1px solid #000000;
-            } */
-
-
-            /* a{
-                text-decoration:none;
-                background-color: #ff0000;
-                color:#ffffff;
-                padding:15px 25px;
-                margin-left:50px;
-                margin-top:50px;
-            } */
-
-
-            /* ul{
-                list-style-image: url('image/a21.jpg');
-            } */
-
-
-            /* table{
-                width: 100%;
-                border:0px;
-                border-collapse: collapse;
-            }
-
-            th{
-                background-color:#00ff00;
-            }
-
-            th,td{
-                padding:5px;
-                height:50px;
-                text-align: center;
-                vertical-align: bottom;
-                border-bottom: 1px solid lightgreen;
-            }
-            
-
-            table tr:nth-child(even){
-                background-color: #f2f2f2;
-            }
-
-
-            tr:hover{
-                background-color: gray;
-            } */
-
-
-
-
-            /* img{
-                height:100px;
-                width:200px;
-                float:right;
-                margin-left: 20px;
-            }
-
-
-
-            .main::after {
-            content: "";
-            clear: both;
-            display: table;
-            }
-
-            .main{
-                border:1px solid black;
-            } */
-
-
-            /* .main{
-                width:50%;
-                height:200px;
-                background-color: #111;
-                position:absolute;
-                left:50%;
-                top:50%;
-
-                transform: translate(-50%, -50%);
-            } */
-
-            /* h1{
-                color:#fff;
-                text-align:center;
-                line-height: 200px;
-            } */
-
-            /* p{
-                color:#fff;
-                text-align:center;
-                line-height: 200px;
-            } */
-
-            /* img{
-                display:block;
-                margin:auto;
-
-            } */
-
-
-            .main{
-                background-color: #f2f2f2;
-            }
-        </style>
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-
-    <body>
-        <!-- <div>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem expedita rerum placeat suscipit nostrum illum esse hic corporis voluptate, ratione eos ipsum quia eligendi magnam exercitationem quis natus vel omnis delectus distinctio velit aspernatur facilis nemo. Distinctio, odio sint eligendi ratione, debitis aperiam non nobis, praesentium possimus recusandae aut. Perspiciatis?</p>
-        </div>
-
-        <a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_link_advanced">Nepal</a>
-        <a href="#">India</a>
-        <a href="#">China</a>
-        <a href="#">Bangladesh</a>
-
-
-        <ul>
-            <li>coffee</li>
-        </ul>
-
-        <i class="fa fa-car" style="font-size:60px;color:red;"></i>
-
-        <table>
-            <tr>
-                <th>Company</th>
-                <th>Contact</th>
-                <th>Country</th>
-            </tr>
-
-            <tr>
-                <td>Adventure Everest Team Treks & Expedition</td>
-                <td>Kul Bdr. Tamang</td>
-                <td>Nepal</td>
-            </tr>
-
-
-            <tr>
-                <td>Oasis pvt</td>
-                <td>Suman</td>
-                <td>Japan</td>
-            </tr>
-
-            <tr>
-                <td>Berglunds snabbköp</td>
-                <td>Christina Berglund</td>
-                <td>Sweden</td>
-            </tr>
-              
-            <tr>
-                <td>Centro comercial Moctezuma</td>
-                <td>Francisco Chang</td>
-                <td>Mexico</td>
-            </tr>
-
-            <tr>
-                <td>Ernst Handel</td>
-                <td>Roland Mendel</td>
-                <td>Austria</td>
-            </tr>
-
-            <tr>
-                <td>Island Trading</td>
-                <td>Helen Bennett</td>
-                <td>UK</td>
-            </tr>
-
-            <tr>
-                <td>Königlich Essen</td>
-                <td>Philip Cramer</td>
-                <td>Germany</td>
-            </tr>
-
-            <tr>
-                <td>Laughing Bacchus Winecellars</td>
-                <td>Yoshi Tannamuri</td>
-                <td>Canada</td>
-            </tr>
-
-            <tr>
-                <td>Magazzini Alimentari Riuniti</td>
-                <td>Giovanni Rovelli</td>
-                <td>Italy</td>
-            </tr>
-
-            <tr>
-                <td>North/South</td>
-                <td>Simon Crowther</td>
-                <td>UK</td>
-            </tr>
-
-            <tr>
-                <td>Paris spécialités</td>
-                <td>Marie Bertrand</td>
-                <td>France</td>
-            </tr>
-
-        </table> -->
-
-
-
-        <!-- <div class="main">
-            <img src="nepal2.jpg" alt="This is mountain photo">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum eaque repellat nostrum explicabo, aliquid quam, consequuntur aliquam vel totam, ipsum maxime unde dolores provident autem perferendis harum aperiam deleniti non illum quas iste quod? Quidem atque sit ipsum qui totam laboriosam, nostrum autem. Rem exercitationem molestias optio illo atque iure totam blanditiis, accusantium, eos cumque, quae deserunt accusamus nulla quas mollitia ad vitae. Soluta dignissimos cupiditate beatae iure eum ratione ut nobis obcaecati ea eveniet tenetur perspiciatis asperiores ipsum hic velit accusantium aliquid dolores adipisci necessitatibus doloribus, consequatur nulla amet sunt quibusdam. Odit, magnam! Iste enim saepe totam facilis qui!</p>
-        
-            <div class="clearfix">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At nemo dolores nostrum quam rerum voluptate cum impedit, quo corporis magnam, unde pariatur iusto quaerat! Ab omnis maxime quaerat, dignissimos corrupti eum quia neque! Sapiente maxime eos aperiam culpa ullam sequi atque fugit rerum qui totam pariatur voluptatibus quaerat tempore quod id facere deserunt, placeat consequatur illo modi quo corporis laborum architecto? Nihil, consectetur nesciunt. Accusantium illo minus vero iste fugit dolore blanditiis dolores, placeat debitis corporis, architecto nihil? Autem pariatur hic nam ad qui dolores maxime ducimus et aspernatur facere, perspiciatis placeat praesentium magni sit culpa, explicabo ipsam quia animi.</p>
-                <img src="nepal2.jpg" alt="">
-
-            </div>
-
-        </div> -->
-
-
-        <!-- <div class="main"> -->
-            <!-- <h1>Nepal</h1> -->
-            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, quaerat.</p> -->
-            <!-- <img src="nepal2.jpg" alt="" height="200px" width="200px"> -->
-        <!-- </div> -->
-
-        <div class="main">
-            &nbsp;
-        </div>
-
-    </body>
 </html>
