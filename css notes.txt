@@ -1,0 +1,6 @@
+1) css block level elements- It occupies the full width available. By default block level elements is set to width 100%
+2) css inline elements - It doesn't occupy the full width available. 
+	-css inline elements doesnot support properties like width, margin-top/bottom 
+3) css inline-block elements will have the properties of both block and inline elements. It can have properties of 
+	all block level elements and they can align next to each other in single line.
+
