@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+
+.header{
+    width:90%;
+    margin:0 auto;
+    background-color: #f1f1f1;
+}
+
+#nav-bar ul li{
+    list-style-type: none;
+    display:inline-block;
+    margin-right:50px;
+    padding:10px 15px;
+    width:120px;
+    background-color: gray;
+    text-align:center;
+    
+}
+
+#nav-bar ul li a{
+    text-decoration:none;
+    color:#fff;
+}
+
+#nav-bar ul li:hover{
+    background-color: #000000;
+    cursor:pointer;
+}
