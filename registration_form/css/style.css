@@ -1,0 +1,21 @@
+div{
+    width:25em;
+    background-color: #d8c292;
+    margin:auto;
+    padding:1.25em;
+}
+
+div h1{
+    text-align:center;
+    color:#5b5b5b ;
+}
+
+div input[type="submit"]{
+    background-color: #5b5b5b;
+    color:#fff;
+    width:20em;
+    text-align: center;
+    margin-left:5em;
+    padding:0.5em;
+
+}

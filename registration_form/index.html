@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1 class="reg_heading">Registration Panel</h1>
+        <form name="reg_form" action="home.html" onsubmit=" return onSubmit()">
+            <p>
+                <label>First Name</label>
+                <input type="text" name="firstName" required maxlength="50" placeholder="Enter first name" id="firstName">
+            </p>
+
+            <p>
+                <label>Last Name</label>
+                <input type="text" name="lastName" required maxlength="50" placeholder="Enter last name" id="lastName">
+            </p>
+
+            <p>
+                <label>Email</label>
+                <input type="email" name="email" required maxlength="100" placeholder="@gmail.com" id="email">
+            </p>
+
+            <p> 
+                <label for="gender"> Gender</label><br/>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+            </p>
+
+            <p>
+                <label>DoB</label>
+                <input type="date" name="dateOfBirth" value="dateOfBirth" required maxlength="11" id="dateOfBirth">
+            </p>        
+
+            <p>
+                <label>Contact</label>
+                <input type="text" name="number" required maxlength="20" placeholder="+977" id="contact">
+            </p>
+
+            <p>
+                <label>Address</label>
+                <textarea cols="22" rows="4" id="textarea"></textarea>
+            </p>
+
+            <p>
+                <label>Password</label>
+                <input type="password" name="password" required maxlength="50" id="password">
+            </p>
+
+            <p>
+                <label>Confirm Password</label>
+                <input type="password" name="confirmPassword" required maxlength="50" id="confirmPassword">
+            </p>
+
+            <!-- <input type="Submit" value="Submit" onclick=" return confirm('Are you sure ?')"> -->
+            <!-- <input type="Submit" value="Submit" onclick="return onSubmit()"> -->
+            <input type="Submit" value="Submit">
+
+        </form>
+
+    </div>
+
+    <script src="script/index.js">
+    </script>
+    
+</body>
+</html>
